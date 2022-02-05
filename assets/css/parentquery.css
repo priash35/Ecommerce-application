@@ -1,0 +1,44 @@
+
+
+* { margin:0px;padding:0px;}
+
+
+@media screen and (max-width : 1200px) {
+}
+
+@media screen and (max-width : 993px) {
+}
+@media screen and (max-width: 769px){ 
+}
+
+
+@media only screen and (min-width:768px) and (max-width: 1024px) and (orientation: landscape) {
+}
+@media only screen and (min-width:768px) and (max-width: 1024px) and (orientation: portrait) {
+}
+
+@media screen and (max-width : 767px) {
+
+	.calendar_content {
+	    width: 621px !important;
+	}
+
+}
+
+@media screen and (max-width : 420px) {  
+
+	.content-wrapper{
+    margin-left: 0px !important;
+	}
+
+}
+@media screen and (max-width:360px){
+		.content-wrapper{
+    margin-left: 0px !important;
+	}
+}
+
+@media screen and (max-width:340px){
+}
+/*@media only screen and (min-width : 768px) {}*/
+

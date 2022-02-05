@@ -1,0 +1,105 @@
+/*************************** Calendar Top Navigation **************************/
+#calendar_plug_plug {
+  margin: 0px auto;
+  padding: 0px;
+  width: 602px;
+  font-family: Helvetica, "Times New Roman", Times, serif;
+}
+#calendar_plug_plug .calendar_box {
+  position: relative !important;
+  top: 0px !important;
+  left: 0px !important;
+  width: 100% !important;
+  height: 40px !important;
+  background-color: #787878 !important;
+}
+#calendar_plug_plug .calendar_header {
+  line-height: 40px !important;  
+  vertical-align: middle !important;
+  position: absolute !important ;
+  left: 11px !important;
+  top: 0px !important;
+  width: 582px !important;
+  height: 40px !important;
+  text-align: center !important;
+}
+#calendar_plug_plug .calendar_header .calendar_prev, #calendar_plug .calendar_header .calendar_next {
+  position: absolute;
+  top: 0px;
+  height: 17px;
+  display: block;
+  cursor: pointer;
+  text-decoration: none;
+  color: #FFF;
+}
+#calendar_plug .calendar_header .calendar_title {
+  color: #FFF;
+  font-size: 18px;
+}
+#calendar_plug .calendar_header .calendar_prev {
+  left: 0px;
+}
+#calendar_plug .calendar_header .calendar_next {
+  right: 0px;
+}
+/*************************** Calendar Content Cells ***************************/
+#calendar_plug .calendar_content {
+  border: 1px solid #787878;
+  border-top: none;
+  display:none;
+}
+#calendar_plug .calendar_label {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+#calendar_plug .calendar_label .calendar_names {
+  margin: 0px;
+  padding: 0px;
+  margin-right: 5px;
+  float: left;
+  list-style-type: none;
+  width: 80px;
+  height: 40px;
+  line-height: 40px;
+  vertical-align: middle;
+  text-align: center;
+  color: #000;
+  font-size: 15px;
+  background-color: transparent;
+}
+#calendar_plug .calendar_dates {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+/** overall width = width+padding-right **/
+#calendar_plug .calendar_dates .calendar_names, #calendar_plug .calendar_dates .calendar_days, #calendar_plug .calendar_dates .calendar_today {
+  margin: 0px;
+  padding: 0px;
+  margin-right: 5px;
+  margin-top: 5px;
+  line-height: 80px;
+  vertical-align: middle;
+  float: left;
+  list-style-type: none;
+  width: 80px;
+  height: 80px;
+  font-size: 25px;
+  background-color: #DDD;
+  color: #000;
+  text-align: center;
+}
+.calendar_dates .calendar_today {
+  background-color: #CC6699 !important;
+}
+:focus {
+  outline: none;
+}
+.calendar_clear {
+  clear: both;
+}
